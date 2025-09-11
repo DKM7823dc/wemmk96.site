@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>老後資産投資戦略 - 専門投資家による市場予測</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans JP', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-shadow { box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .text-shadow { text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .btn-glow { box-shadow: 0 0 20px rgba(59, 130, 246, 0.5); }
+        .floating { animation: float 3s ease-in-out infinite; }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+    <script>
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        });
+
+        function kkb() {
+           window.location.href="b.html";
+        }
+    </script>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+    <!-- Hero Section -->
+    <header class="gradient-bg text-white py-16 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 text-shadow floating">
+                老後資産投資戦略
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 opacity-90">
+                世界トップレベルの投資家による市場予測
+            </p>
+            <button onclick="kkb()" class="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 btn-glow transform hover:scale-105">
+                今すぐLINEで詳細を確認
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        
+        <!-- Section 1 -->
+        <section class="mb-16">
+            <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 card-shadow">
+                <img src="img/1.jpg" alt="老後資産" class="w-full max-w-md mx-auto mb-6 rounded-lg">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center text-blue-600 dark:text-blue-400">
+                    みんな老後資産どうやって作ってる？
+                </h2>
+                <p class="text-lg leading-relaxed text-center">
+                    老後資産を積み立てる方法は様々ありますが、本当に資産を築いている人の多くは投資を選択しているようです。
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="mb-16">
+            <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 card-shadow">
+                <img src="img/2.webp" alt="市場指標" class="w-full max-w-lg mx-auto mb-6 rounded-lg">
+                <p class="text-lg leading-relaxed text-center">
+                    投資といえば、最近では新NISAやiDeCoなど手堅いイメージの投資手段が増えました。しかし、2024年8月に起きた日経平均の大暴落では、多くの人が大きな損失を被ったようです。
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section class="mb-16">
+            <div class="bg-red-50 dark:bg-red-900/20 rounded-2xl p-8 card-shadow border-l-4 border-red-500">
+                <img src="img/3.webp" alt="投資風險" class="w-full max-w-lg mx-auto mb-6 rounded-lg">
+                <p class="text-lg leading-relaxed text-center">
+                    投資では長期で着実に資産を増やしたいところですが、去年の8月のような大暴落が時々起こります。「せっかく積み立てた資産がマイナスになってしまった」
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 4 -->
+        <section class="mb-16">
+            <div class="bg-green-50 dark:bg-green-900/20 rounded-2xl p-8 card-shadow border-l-4 border-green-500">
+                <img src="img/4.webp" alt="予測策略" class="w-full max-w-lg mx-auto mb-6 rounded-lg">
+                <p class="text-lg leading-relaxed text-center font-semibold">
+                    しかし、もし大暴落の日付を事前に正確に予測できれば、損失を回避し、事前に株を売却して備えることができます！
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 5 -->
+        <section class="mb-16">
+            <div class="bg-blue-50 dark:bg-blue-900/20 rounded-2xl p-8 card-shadow">
+                <img src="img/5.webp" alt="空売り戦略" class="w-full max-w-lg mx-auto mb-6 rounded-lg">
+                <p class="text-lg leading-relaxed text-center">
+                    株式投資のルールとして、空売りすれば株価下落時にその差額で利益を得ることができます。
+                </p>
+                <div class="text-center mt-8">
+                    <button onclick="kkb()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105">
+                        投資戦略の詳細を見る
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6 -->
+        <section class="mb-16">
+            <div class="bg-yellow-50 dark:bg-yellow-900/20 rounded-2xl p-8 card-shadow">
+                <p class="text-lg leading-relaxed text-center mb-6">
+                    政府系ファンドの元チーフトレーダーを務めた日本人投資家が、大暴落を警告する動画を公開。この動画を見た人たちがコメント欄に続々と書き込み！
+                </p>
+                <img src="img/6.jpg" alt="コメント" class="w-full max-w-lg mx-auto rounded-lg">
+            </div>
+        </section>
+
+        <!-- Expert Profile Section -->
+        <section class="mb-16">
+            <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 card-shadow">
+                <h3 class="text-2xl font-bold text-center mb-6 text-purple-600 dark:text-purple-400">
+                    政府系ファンド元No.1の手法だから<br>
+                    実力も信頼性もピカイチ！
+                </h3>
+                <p class="text-lg text-center mb-6">
+                    この暴露動画を公開した林則行さんはとんでもない人物でした。
+                </p>
+                <img src="img/7.webp" alt="林則行" class="w-full max-w-md mx-auto mb-6 rounded-lg">
+            </div>
+        </section>
+
+        <!-- Columbia University Section -->
+        <section class="mb-16">
+            <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 card-shadow">
+                <img src="img/8.webp" alt="コロンビア大学" class="w-full max-w-lg mx-auto mb-6 rounded-lg">
+                <p class="text-lg leading-relaxed text-center">
+                    名門コロンビア大学に留学して本格的に投資を学んだ林さん。<br>
+                    そこで当時、特別講師だったある伝説的投資家から投資法を伝授されます。
+                </p>
+            </div>
+        </section>
+
+        <!-- Jim Rogers Section -->
+        <section class="mb-16">
+            <div class="bg-gradient-to-r from-gold-100 to-yellow-100 dark:from-yellow-900/20 dark:to-gold-900/20 rounded-2xl p-8 card-shadow">
+                <h3 class="text-2xl font-bold text-center mb-6 text-gold-600 dark:text-yellow-400">
+                    それがあの世界三大投資家のジム・ロジャーズさん!
+                </h3>
+                <img src="img/9.webp" alt="ジム・ロジャーズ" class="w-full max-w-md mx-auto rounded-lg">
+            </div>
+        </section>
+
+        <!-- Career Journey Sections -->
+        <section class="mb-16">
+            <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 card-shadow">
+                <img src="img/10.webp" alt="投資銀行" class="w-full max-w-lg mx-auto mb-6 rounded-lg">
+                <p class="text-lg leading-relaxed text-center">
+                    米国の大手投資銀行へ推薦もしてくれるほど、林さんを弟子のように可愛がっていたとか。
+                </p>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 card-shadow">
+                <img src="img/11.webp" alt="世界の金融機関" class="w-full max-w-lg mx-auto mb-6 rounded-lg">
+                <p class="text-lg leading-relaxed text-center">
+                    ロジャーズ流の投資手法で成績を出し続けた林さんは、世界トップの金融機関を渡り歩きます。
+                </p>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 card-shadow">
+                <img src="img/12.webp" alt="アブダビ投資庁" class="w-full max-w-lg mx-auto mb-6 rounded-lg">
+                <p class="text-lg leading-relaxed text-center">
+                    そして世界最大級の政府系ファンド「アブダビ投資庁」へ引き抜かれて、そこでも運用成績No1を獲得。<br>
+                    というのがざっくりとした林さんの経歴です。<br>
+                    <span class="font-bold text-red-600 dark:text-red-400">(正直、凄すぎます！)</span>
+                </p>
+            </div>
+        </section>
+
+        <!-- Final Call to Action -->
+        <section class="mb-16">
+            <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl p-8 card-shadow text-center">
+                <h3 class="text-2xl font-bold mb-6">
+                    早い話が日本人投資家で唯一、世界のトップと戦えたのが林さんということです。
+                </h3>
+                <p class="text-xl mb-6">
+                    そんな林さんが予告する<br>
+                    <span class="font-bold text-yellow-300">「近い将来の株価の大暴落」</span><br>
+                    詳細を知っておいた方が良さそうですね！
+                </p>
+                <button onclick="kkb()" class="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 btn-glow transform hover:scale-105">
+                    今すぐ詳細を確認する
+                </button>
+            </div>
+        </section>
+
+        <!-- Trust Section -->
+        <section class="mb-16">
+            <div class="bg-green-50 dark:bg-green-900/20 rounded-2xl p-8 card-shadow border-2 border-green-300 dark:border-green-600">
+                <img src="img/13.jpg" alt="安心保証" class="w-full max-w-lg mx-auto mb-6 rounded-lg">
+                <p class="text-lg leading-relaxed text-center mb-6">
+                    もちろん怪しい投資勧誘などもありませんし、自分には合わないと思えば実践しなければ良いだけです！<br>
+                    これだけの実績がある方が当然そんなことするハズないですね。失礼しました汗
+                </p>
+                <div class="text-center">
+                    <button onclick="kkb()" class="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105">
+                        LINEで安心して相談する
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer CTA -->
+    <footer class="gradient-bg text-white py-12 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">
+                今すぐ行動を起こしましょう
+            </h2>
+            <p class="text-xl mb-8 opacity-90">
+                世界レベルの投資戦略をLINEで詳しく
+            </p>
+            <button onclick="kkb()" class="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold py-4 px-12 rounded-full text-xl transition-all duration-300 btn-glow transform hover:scale-105 floating">
+                LINE友達追加はこちら
+            </button>
+        </div>
+    </footer>
+</body>
+</html>

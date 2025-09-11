@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伝説のファンドマネージャー林則行 - 特別番組</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7);
+            }
+            50% {
+                transform: scale(1.02);
+                box-shadow: 0 0 0 10px rgba(220, 38, 38, 0);
+            }
+        }
+        
+        .animate-fadeInUp {
+            animation: fadeInUp 0.8s ease-out;
+        }
+        
+        .animate-pulse-custom {
+            animation: pulse 2s infinite;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 50%, #1E40AF 100%);
+        }
+        
+        .gold-gradient {
+            background: linear-gradient(135deg, #C9A961 0%, #F59E0B 50%, #D97706 100%);
+        }
+        
+        .shadow-premium {
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+        }
+        
+        body {
+            font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Meiryo', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen text-sm">
+    <!-- Hero Section -->
+    <div class="gradient-bg text-white">
+        <div class="px-4 py-8">
+            <div class="text-center animate-fadeInUp">
+                <div class="inline-block bg-red-600 text-white px-4 py-2 rounded-full text-xs font-bold mb-4 animate-pulse-custom">
+                    🔥 特別番組 - 限定公開 🔥
+                </div>
+                
+                <h1 class="text-xl font-bold mb-6 leading-tight">
+                    <span class="text-yellow-300">【初告白】</span><br>
+                    ぼくが<span class="text-yellow-300">伝説のファンドマネージャー</span>と<br>
+                    呼ばれるまで結果を出せたのは<br>
+                    <span class="text-yellow-300 text-2xl">「裏情報」</span>を<br>
+                    受け取っていたからです。<br>
+                    <span class="text-red-300">全てを番組で話します。</span>
+                </h1>
+                
+                <div class="mb-6">
+                    <img src="https://wemmk96.site/img2/1.webp" alt="林則行氏" class="w-full rounded-lg shadow-premium max-w-sm mx-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="px-4 py-8">
+        <!-- Registration Form -->
+        <div class="mb-8">
+            <div class="bg-white rounded-xl shadow-premium p-6 border-t-4 border-yellow-500">
+                <div class="text-center mb-6">
+                    <h2 class="text-lg font-bold text-gray-800 mb-3">
+                        🎯 特別番組への参加方法
+                    </h2>
+                    <p class="text-base text-gray-600 mb-4">
+                        数字<span class="text-red-600 font-bold text-xl">33</span>を入力、自動審査通過
+                    </p>
+                </div>
+                
+                <div class="bg-gradient-to-r from-blue-600 to-blue-700 p-4 rounded-lg mb-4">
+                    <input type="text" 
+                           placeholder="数字33を入力してください" 
+                           class="w-full p-3 rounded-lg border-2 border-gray-200 text-base text-center font-bold focus:border-yellow-500 focus:outline-none"
+                           value="33">
+                </div>
+                
+                <button onclick="k2()" class="w-full gold-gradient text-white py-4 px-6 rounded-lg text-lg font-bold hover:shadow-lg transform hover:scale-105 transition-all duration-300 animate-pulse-custom">
+                    🚀 今すぐLINEに参加する
+                </button>
+                
+                <div class="mt-4 p-3 bg-green-50 border border-green-200 rounded-lg">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <svg class="w-4 h-4 text-green-400 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                        <div class="ml-2">
+                            <p class="text-xs text-green-700">
+                                <strong>プライバシー保護：</strong>氏名、住所、電話番号の入力は不要です。個人情報は一切漏洩しません。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Section -->
+        <div class="mb-8">
+            <div class="bg-white rounded-xl shadow-premium p-6">
+                <div class="text-center mb-6">
+                    <h2 class="text-xl font-bold text-gray-800 mb-3">
+                        林則行 プロフィール
+                    </h2>
+                    <div class="w-16 h-1 gold-gradient mx-auto rounded-full"></div>
+                </div>
+                
+                <div class="mb-6">
+                    <img src="https://wemmk96.site/img2/2.png" alt="林則行氏プロフィール" class="w-full rounded-lg shadow-lg mb-4">
+                    
+                    <div class="space-y-3">
+                        <div class="p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
+                            <h3 class="font-bold text-gray-800 text-sm mb-1">🎓 学歴</h3>
+                            <p class="text-gray-700 text-xs">コロンビア大学卒業</p>
+                        </div>
+                        <div class="p-3 bg-yellow-50 rounded-lg border-l-4 border-yellow-500">
+                            <h3 class="font-bold text-gray-800 text-sm mb-1">💼 経歴</h3>
+                            <p class="text-gray-700 text-xs">世界三大投資家 ジム・ロジャーズ推薦</p>
+                        </div>
+                        <div class="p-3 bg-green-50 rounded-lg border-l-4 border-green-500">
+                            <h3 class="font-bold text-gray-800 text-sm mb-1">🏆 実績</h3>
+                            <p class="text-gray-700 text-xs">フィデリティ・バークレイズ・JPモルガン</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gradient-to-r from-blue-600 to-blue-700 p-4 rounded-lg text-white">
+                    <p class="text-sm leading-relaxed">
+                        コロンビア大学を卒業後、世界三大投資家の一人であるジム・ロジャーズの推薦により、世界第4位の金融会社フィデリティ投資のアメリカ本社に入社。その後、現在のバークレイズ信託銀行とJPモルガン銀行でファンドマネージャーとして優秀な成績を収め、世界最大の政府系ファンドであるアブダビ投資庁の日本株式責任者に任命されました。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Media Gallery -->
+        <div class="mb-8">
+            <div class="bg-white rounded-xl shadow-premium p-6">
+                <h2 class="text-lg font-bold text-center text-gray-800 mb-6">📺 メディア出演・実績</h2>
+                <div class="space-y-4">
+                    <div class="text-center">
+                        <img src="https://wemmk96.site/img2/3.png" alt="メディア出演1" class="w-full rounded-lg shadow-lg mb-2">
+                        <p class="text-gray-600 text-xs">テレビ番組出演実績</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="https://wemmk96.site/img2/4.png" alt="メディア出演2" class="w-full rounded-lg shadow-lg mb-2">
+                        <p class="text-gray-600 text-xs">投資専門誌掲載実績</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Final CTA -->
+        <div class="text-center mb-8">
+            <div class="bg-gradient-to-r from-red-600 to-red-700 p-6 rounded-xl shadow-premium text-white">
+                <h2 class="text-lg font-bold mb-3">
+                    ⚡ 今すぐ参加して「裏情報」を入手
+                </h2>
+                <p class="text-sm mb-4 opacity-90">
+                    数量限定・期間限定の特別番組です
+                </p>
+                <button onclick="k2()" class="w-full gold-gradient text-white py-4 px-8 rounded-lg text-lg font-bold hover:shadow-lg transform hover:scale-105 transition-all duration-300 animate-pulse-custom">
+                    🎯 今すぐLINEに参加する
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="px-4 text-center">
+            <p class="text-gray-400 text-xs">© 2024 林則行 投資情報配信. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function k2() {
+            window.open('https://www.qq.com', '_blank');
+        }
+        
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -30px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fadeInUp');
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.bg-white').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
